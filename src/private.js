@@ -1,9 +1,9 @@
 'use strict'
 
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 const libp2pRecord = require('libp2p-record')
 const timeout = require('async/timeout')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const promisify = require('promisify-es6')
 const promiseToCallback = require('promise-to-callback')
 const errcode = require('err-code')

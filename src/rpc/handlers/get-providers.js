@@ -2,7 +2,7 @@
 
 const CID = require('cids')
 const parallel = require('async/parallel')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const promiseToCallback = require('promise-to-callback')
 const errcode = require('err-code')
 

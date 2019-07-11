@@ -1,8 +1,8 @@
 'use strict'
 
 const assert = require('assert')
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
 const protons = require('protons')
 const Record = require('libp2p-record').Record
 

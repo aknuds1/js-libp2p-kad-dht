@@ -1,8 +1,8 @@
 {
-  "name": "libp2p-kad-dht",
-  "version": "0.15.2",
+  "name": "@arve.knudsen/libp2p-kad-dht",
+  "version": "0.15.3",
   "description": "JavaScript implementation of the Kad-DHT for libp2p",
-  "leadMaintainer": "Vasco Santos <vasco.santos@moxy.studio>",
+  "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "main": "src/index.js",
   "scripts": {
     "lint": "aegir lint",
@@ -22,20 +22,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/libp2p/js-libp2p-kad-dht.git"
+    "url": "https://github.com/aknuds1/js-libp2p-kad-dht.git"
   },
   "keywords": [
     "IPFS"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/libp2p/js-libp2p-kad-dht/issues"
+    "url": "https://github.com/aknuds1/js-libp2p-kad-dht/issues"
   },
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.0.0"
   },
-  "homepage": "https://github.com/libp2p/js-libp2p-kad-dht",
+  "homepage": "https://github.com/aknuds1/js-libp2p-kad-dht",
   "dependencies": {
     "abort-controller": "^3.0.0",
     "async": "^2.6.2",
@@ -56,8 +56,8 @@
     "multihashing-async": "~0.5.2",
     "p-queue": "^5.0.0",
     "p-times": "^2.1.0",
-    "peer-id": "~0.12.2",
-    "peer-info": "~0.15.1",
+    "@arve.knudsen/peer-id": "~0.13.1",
+    "@arve.knudsen/peer-info": "~0.15.2",
     "priorityqueue": "~0.2.1",
     "promise-to-callback": "^1.0.0",
     "promisify-es6": "^1.0.3",

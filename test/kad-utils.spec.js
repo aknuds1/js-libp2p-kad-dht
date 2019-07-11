@@ -5,7 +5,7 @@ const chai = require('chai')
 chai.use(require('dirty-chai'))
 const expect = chai.expect
 const base32 = require('base32.js')
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 const distance = require('xor-distance')
 const waterfall = require('async/waterfall')
 

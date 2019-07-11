@@ -4,7 +4,7 @@
 const chai = require('chai')
 chai.use(require('dirty-chai'))
 const expect = chai.expect
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 const map = require('async/map')
 const each = require('async/each')
 const series = require('async/series')

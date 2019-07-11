@@ -3,8 +3,8 @@
 'use strict'
 const { promisify } = require('util')
 const PeerBook = require('peer-book')
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('@arve.knudsen/peer-id')
+const PeerInfo = require('@arve.knudsen/peer-info')
 const multihashes = require('multihashes')
 
 const RoutingTable = require('../../src/routing')

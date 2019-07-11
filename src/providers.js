@@ -2,7 +2,7 @@
 
 const cache = require('hashlru')
 const varint = require('varint')
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 const Key = require('interface-datastore').Key
 const Queue = require('p-queue')
 const promisify = require('promisify-es6')
